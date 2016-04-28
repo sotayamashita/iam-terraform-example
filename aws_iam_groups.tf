@@ -1,4 +1,3 @@
-resource "aws_iam_group" "development" {
-    name = "development"
+resource "aws_iam_group" "developers" {
+    name = "developers"
 }
-
