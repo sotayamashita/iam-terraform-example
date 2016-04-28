@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Deny",
+            "Action": [
+                "rds:AddTagsToResource",
+                "rds:RemoveTagsFromResource"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "rds:*"
+            ],
+            "Condition": {
+                "StringEquals": {
+                    "rds:db-tag/environment": "development"
+                }
+            },
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
