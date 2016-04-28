@@ -2,6 +2,10 @@
 
 # iam-terraform-example
 
+This repository is typically for the purposes of internal testing and demonstration to configure AWS Identity and Access Management (IAM) but I'm keenly aware people are using it for theirs so You're always welcome to make suggestions, however I may decline if it's not of personal value to me :smile:
+
+## Usage
+
 Check for the AWS configugration:
 
 ```bash
