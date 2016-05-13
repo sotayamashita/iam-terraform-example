@@ -21,6 +21,11 @@ Apply:
 $ terraform apply
 ```
 
+## Acknowledgements
+
++ [TerraformでAWSのIAMユーザのグループポリシーを管理する | Qiita](http://qiita.com/minamijoyo/items/a7da998cbd263164b4d5)
++ [だれでも簡単terraform入門 | ブログ](http://blog.takasing.ninja/entry/2015/06/04/150000)
+
 ## License
 
 MIT © Sota Yamashita
