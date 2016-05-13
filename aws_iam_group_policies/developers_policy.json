@@ -19,9 +19,7 @@
                     "rds:db-tag/environment": "development"
                 }
             },
-            "Resource": [
-                "*"
-            ]
+            "Resource": "*"
         }
     ]
 }
